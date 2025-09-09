@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class P17 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int x=input.nextInt();
+        int y=input.nextInt();
+        int z=input.nextInt();
+        int total_student=x*y;
+        double temp=total_student*1.0;
+        double percentage=(z/temp)*100;
+        if(percentage>50.0)
+        {
+            System.out.println("Strictly greater then 50%");
+        }
+        else
+        {
+            System.out.println("Below 50%");
+        }
+    }
+}
