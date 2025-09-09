@@ -1,0 +1,18 @@
+import java.util.*;
+public class P14 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int a=input.nextInt();
+        int b=input.nextInt();
+        int c=input.nextInt();
+        int temp=(a+b)/2;
+        if(temp>c)
+        {
+            System.out.println("Avg of a and b is stricly greater than c");
+        }
+        else
+        {
+            System.out.println("Avg of a and b is not stricly greater than c");
+        }
+    }
+}

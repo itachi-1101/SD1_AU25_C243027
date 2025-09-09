@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class P15 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int n=input.nextInt();
+        int x=input.nextInt();
+        int temp=n/6;
+        if(temp%6!=0)
+        {
+            temp++;
+            int yo=temp*x;
+            System.out.println(yo);
+        }
+        else if(n<6)
+        {
+            System.out.println(x);
+        }
+        else
+        {
+            int yo=temp*x;
+            System.out.println(yo);
+        }
+    }
+}

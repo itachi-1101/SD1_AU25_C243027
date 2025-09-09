@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class P5 {
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        int a=input.nextInt(); 
+        char c=input.next().charAt(0);
+        int b=input.nextInt(); 
+        if(c=='+')
+        {
+            int sum=a+b;
+            System.out.println(sum);
+        }
+        else if(c=='-')
+        {
+            int subs=a-b;
+            System.out.println(subs);
+        }
+        else if(c=='*')
+        {
+            long mul=0;
+            for(int i=0;i<b;i++)
+            {
+                mul+=a;
+            }
+            System.out.println(mul);
+        }
+        else if(c=='/')
+        {
+            int dev=a/b;
+            System.out.println(dev);
+        }
+    }
+}

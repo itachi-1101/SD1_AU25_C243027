@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class P16 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int n=input.nextInt();
+        int temp=n+3;
+        if(temp<10)
+        {
+            System.out.println("Assignment submitted successfully");
+        }
+        else
+        {
+            System.out.println("You are late now regret");
+        }
+    }
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class P11 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        String str=input.nextLine();
+        if(str.length()>10)
+        {
+            System.out.print(str.charAt(0));
+            int temp=str.length()-2;
+            System.out.print(temp);
+            int temp1=str.length()-1;
+            System.out.print(str.charAt(temp1));
+            System.out.println();
+        }
+        else
+        {
+            System.out.println("No Changes");
+        }
+    }
+}
